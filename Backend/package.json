@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "e-commerce website using mern stack and redux toolkit and material ui",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waquar Ahmed Nawaz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "formidable": "^3.5.2",
+    "https": "^1.0.0",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7",
+    "paytmchecksum": "^1.5.1",
+    "uuid": "^11.0.3"
+  }
+}
